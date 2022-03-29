@@ -1,0 +1,31 @@
+        .calculator {
+            background-color: #8FBC8F;
+            text-align: center;
+            font-size: 2em;
+            border: 5px solid;
+            width: 800px;
+            margin: auto;
+            border-radius: 25px;
+            border-width: 3px; 
+        }
+        .calc-box {
+                color: #02A94C;
+                font-size: 1em;
+                background-color: black;
+                padding: 10px;
+                font-family: "Roboto Serif", serif;
+                direction: ltr;
+                border-radius: 15px;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                margin: 20px;
+        }
+        .numbers {
+          display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+          width: 200px;
+          margin: auto;
+          border: 5px solid;
+          border-radius: 25px;
+          border-width: 3px; 
+        } 
